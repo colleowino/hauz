@@ -2,10 +2,9 @@
     "nairobi": [
         {
             "id": 1,
-            "location": "National Geographic Channel",
+            "location": "Karen",
             "image": "http://api.androidhive.info/feed/img/cosmos.jpg",
-            "description": "\"Science is a beautiful and emotional human endeavor,\" says Brannon Braga, executive producer and director. \"And Cosmos is all about making science an experience.\"",
-            "profilePic": "http://api.androidhive.info/feed/img/nat.jpg",
+            "description": "Awesome 3 bedroom house",
             "timeStamp": "1403375851930",
             "url": null
         },
@@ -14,7 +13,6 @@
             "location": "TIME",
             "image": "http://api.androidhive.info/feed/img/time_best.jpg",
             "description": "30 years of Cirque du Soleil's best photos",
-            "profilePic": "http://api.androidhive.info/feed/img/time.png",
             "timeStamp": "1403375851930",
             "url": "http://ti.me/1qW8MLB"
         },
@@ -23,7 +21,6 @@
             "location": "Abraham Lincoln",
             "image": null,
             "description": "That some achieve great success, is proof to all that others can achieve it as well",
-            "profilePic": "http://api.androidhive.info/feed/img/lincoln.jpg",
             "timeStamp": "1403375851930",
             "url": null
         },
@@ -32,7 +29,6 @@
             "location": "Discovery",
             "image": "http://api.androidhive.info/feed/img/discovery_mos.jpg",
             "description": "A team of Austrian scientists has developed a laser system that causes fruit flies to dance.",
-            "profilePic": "http://api.androidhive.info/feed/img/discovery.jpg",
             "timeStamp": "1403375851930",
             "url": "http://dsc.tv/xmMxD"
         },
@@ -50,7 +46,6 @@
             "location": "KTM",
             "image": "http://api.androidhive.info/feed/img/ktm_1290.jpg",
             "description": "\"The Beast\" KTM 1290 Super Duke",
-            "profilePic": "http://api.androidhive.info/feed/img/ktm.png",
             "timeStamp": "1403375851930",
             "url": ""
         },
@@ -59,7 +54,6 @@
             "location": "Harley-Davidson",
             "image": "http://api.androidhive.info/feed/img/harley_bike.jpg",
             "description": "We’re assembling riders of every style, bike, and passion. If you ride with conviction, ride with us. You have 24 days to get ready for World Ride. Prepare by visiting:",
-            "profilePic": "http://api.androidhive.info/feed/img/harley.jpg",
             "timeStamp": "1403375851930",
             "url": "http://bit.ly/1wmBWaN"
         },
@@ -68,7 +62,6 @@
             "location": "Rock & Girl",
             "image": "http://api.androidhive.info/feed/img/rock.jpg",
             "description": "A long time back...",
-            "profilePic": "http://api.androidhive.info/feed/img/rock_girl.jpg",
             "timeStamp": "1403375851930",
             "url": ""
         },
@@ -77,7 +70,6 @@
             "location": "Gandhi",
             "image": null,
             "description": "An eye for an eye will make the whole world blind.",
-            "profilePic": "http://api.androidhive.info/feed/img/gandhi.jpg",
             "timeStamp": "1403375851930",
             "url": ""
         },
@@ -86,7 +78,6 @@
             "location": "LIFE",
             "image": "http://api.androidhive.info/feed/img/life_photo.jpg",
             "description": "In 1965, LIFE photographer Bill Ray spent weeks with the Hells Angels, but his amazing photos never ran in the magazine",
-            "profilePic": "http://api.androidhive.info/feed/img/life.jpg",
             "timeStamp": "1403375851930",
             "url": "http://ti.me/1rfcQa4"
         },
@@ -95,7 +86,6 @@
             "location": "Shakira",
             "image": "http://api.androidhive.info/feed/img/shakira_la_la.png",
             "description": "Download La La La (Brazil 2014) from iTunes:",
-            "profilePic": "http://api.androidhive.info/feed/img/shakira.jpg",
             "timeStamp": "1403375851930",
             "url": "http://smarturl.it/FWCalbum?IQid=sh"
         },
@@ -104,7 +94,6 @@
             "location": "A. R. rahman",
             "image": "http://api.androidhive.info/feed/img/ar_bw.jpg",
             "description": "",
-            "profilePic": "http://api.androidhive.info/feed/img/ar.jpg",
             "timeStamp": "1403375851930",
             "url": ""
         }
