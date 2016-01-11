@@ -3,99 +3,26 @@
         {
             "id": 1,
             "location": "Karen",
-            "image": "http://api.androidhive.info/feed/img/cosmos.jpg",
-            "description": "Awesome 3 bedroom house",
+            "image": "http://colleowino.github.io/hauz/img/api/props/p1540_5.jpg.jpg",
+            "description": "the waterman business park",
             "timeStamp": "1403375851930",
             "url": null
         },
         {
             "id": 2,
-            "location": "TIME",
-            "image": "http://api.androidhive.info/feed/img/time_best.jpg",
-            "description": "30 years of Cirque du Soleil's best photos",
+            "location": "Hurlingham",
+            "description": "lenana road 3 bed apartment with sq",
+            "image": "http://colleowino.github.io/hauz/img/api/props/p1718_1.jpg",
             "timeStamp": "1403375851930",
             "url": "http://ti.me/1qW8MLB"
         },
         {
             "id": 5,
-            "location": "Abraham Lincoln",
-            "image": null,
-            "description": "That some achieve great success, is proof to all that others can achieve it as well",
+            "location": "Ridgeways",
+            "description": "almasi 4 bed plus villa",
+            "image": "http://colleowino.github.io/hauz/img/api/props/p1465_1.jpg",
             "timeStamp": "1403375851930",
             "url": null
-        },
-        {
-            "id": 3,
-            "location": "Discovery",
-            "image": "http://api.androidhive.info/feed/img/discovery_mos.jpg",
-            "description": "A team of Austrian scientists has developed a laser system that causes fruit flies to dance.",
-            "timeStamp": "1403375851930",
-            "url": "http://dsc.tv/xmMxD"
-        },
-        {
-            "id": 4,
-            "location": "Ravi Tamada",
-            "image": "http://api.androidhive.info/feed/img/nav_drawer.jpg",
-            "description": "Android Sliding Menu using Navigation Drawer",
-            "profilePic": "http://api.androidhive.info/feed/img/ravi_tamada.jpg",
-            "timeStamp": "1403375851930",
-            "url": "http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"
-        },
-        {
-            "id": 6,
-            "location": "KTM",
-            "image": "http://api.androidhive.info/feed/img/ktm_1290.jpg",
-            "description": "\"The Beast\" KTM 1290 Super Duke",
-            "timeStamp": "1403375851930",
-            "url": ""
-        },
-        {
-            "id": 7,
-            "location": "Harley-Davidson",
-            "image": "http://api.androidhive.info/feed/img/harley_bike.jpg",
-            "description": "We’re assembling riders of every style, bike, and passion. If you ride with conviction, ride with us. You have 24 days to get ready for World Ride. Prepare by visiting:",
-            "timeStamp": "1403375851930",
-            "url": "http://bit.ly/1wmBWaN"
-        },
-        {
-            "id": 8,
-            "location": "Rock & Girl",
-            "image": "http://api.androidhive.info/feed/img/rock.jpg",
-            "description": "A long time back...",
-            "timeStamp": "1403375851930",
-            "url": ""
-        },
-        {
-            "id": 8,
-            "location": "Gandhi",
-            "image": null,
-            "description": "An eye for an eye will make the whole world blind.",
-            "timeStamp": "1403375851930",
-            "url": ""
-        },
-        {
-            "id": 9,
-            "location": "LIFE",
-            "image": "http://api.androidhive.info/feed/img/life_photo.jpg",
-            "description": "In 1965, LIFE photographer Bill Ray spent weeks with the Hells Angels, but his amazing photos never ran in the magazine",
-            "timeStamp": "1403375851930",
-            "url": "http://ti.me/1rfcQa4"
-        },
-        {
-            "id": 10,
-            "location": "Shakira",
-            "image": "http://api.androidhive.info/feed/img/shakira_la_la.png",
-            "description": "Download La La La (Brazil 2014) from iTunes:",
-            "timeStamp": "1403375851930",
-            "url": "http://smarturl.it/FWCalbum?IQid=sh"
-        },
-        {
-            "id": 11,
-            "location": "A. R. rahman",
-            "image": "http://api.androidhive.info/feed/img/ar_bw.jpg",
-            "description": "",
-            "timeStamp": "1403375851930",
-            "url": ""
         }
     ]
 }
