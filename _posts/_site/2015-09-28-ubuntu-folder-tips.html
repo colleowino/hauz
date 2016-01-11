@@ -1,0 +1,47 @@
+<p>Ubuntu ships with nautilus as its default file explorer. It’s listed as “files” in the programs list. The screenshots I have used my explanations may have a different icons and theme different from the default ubuntu theme. On my machine I am using the <a href="https://github.com/horst3180/Arc-theme">arc theme</a> and <a href="http://snwh.org/moka/moka-icon-theme/download/">moka icons</a></p>
+
+<h4 id="add-a-global-shortcut-to-open-the-files-explorer-nautilus">Add a global shortcut to open the files explorer (nautilus).</h4>
+
+<p>After switching over to ubuntu, one of the first things I missed was the ability to open the file explore with the <strong><code>Win+E</code></strong> font combination. But its easy to fix.</p>
+
+<ul>
+  <li>Open system settings</li>
+  <li>Select Keyboard, shortcuts tab and launcher Panel.</li>
+  <li>Locate and click <strong>Home folder</strong>, then click type the desired keyboard shortcut. In this case the “win” key or super and E.</li>
+  <li>Close The settings dialog and try out the shortcut.</li>
+</ul>
+
+<p><img src="/img/ubuntu-keyboard-shortcuts.png" alt="placeholder" title="setting home folder keyboard shortcut" /></p>
+
+<h4 id="auto-mount-the-extra-partitions-on-your-hard-drive">Auto mount the extra partitions on your hard drive</h4>
+
+<p>I had have 3 partitions on my hard drive, one for windows, another for ubuntu and a third for all my data. This structure enables me to only worry about wiping one partition in case my OS started acting up.</p>
+
+<p>Unfortunately after booting into ubuntu the other partitions are not mounted by default so I had to set them up to auto mount.</p>
+
+<ul>
+  <li>Open Disks application</li>
+  <li>Select the partition you wish to automount</li>
+  <li>Click on the cog wheels and select “Edit mount options…” from the menu that shows up
+<img src="/img/open-ubuntu-disks.png" alt="disks" title="start up ubuntu disks program" /></li>
+  <li>Toggle the “Automatic mount options” It should appear “off” after</li>
+  <li>Tick the “mount at startup” option.</li>
+  <li>Optional: I recommend you use a descriptive mount Point eg /mnt/backup
+<img src="/img/edit-mount-options.png" alt="auto mount" title="auto mounting partitions" /></li>
+  <li>click done, type in your password when prompted to and your auto mount is setup.</li>
+  <li>You may have to restart ubuntu for the changes to take effect</li>
+</ul>
+
+<h4 id="bookmark-folders-you-use-often">Bookmark folders you use often</h4>
+
+<p>When you have the explorer open you can type <strong><code>ctrl+D</code></strong> and the shortcut will appear below the default folders e.g. Documents and other mounted file-systems.</p>
+
+<h4 id="use-tabs">Use tabs.</h4>
+<p><img src="/img/ubuntu-folder-tabs.png" alt="folder tabs" title="using tabs" />
+They are better than having multiple file explorers open through <strong><code>ctrl+T</code></strong></p>
+
+<h4 id="edit-the-address-bar">Edit the address bar</h4>
+<p><img src="/img/edit-address-bar.png" alt="address bar" title="editing the address bar" /></p>
+
+<p>Nautilus folders up the directory tree through a set of button tabs at the top of each folder. To edit the folder manually you can use <strong><code>Ctrl+L</code></strong>, the press <strong><code>Esc</code></strong> while the cursor is still on the address to return back to the default view</p>
+

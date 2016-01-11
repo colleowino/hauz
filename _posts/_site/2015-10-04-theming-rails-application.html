@@ -1,0 +1,35 @@
+<p>I wanted to use bootstrap css in my rails application without using any gems. 
+That mean’t downloading the actuall files and including them in the rails application directory.</p>
+
+<h3 id="step-1-get-the-files">step 1: get the files</h3>
+<p>My prefered way is to place them in the <code>public</code> folder, this way you won’t have to juggle different directory refrences for the file to be loaded correctly. No need to add any backslashes for the file name and you can import it as you would do any normal html file.</p>
+
+<p>I naviged to the <code>public</code> folder of the rails app and used bower to fetch the files.</p>
+
+<p><code>$ bower install bootstrap</code></p>
+
+<h3 id="step-2-link-your-css-files">step 2: Link your css files</h3>
+<p>Depending on where you want to access the import the css files, You can add the link to either a particular controller’s view or to the applications layout file to apply the settings globally.</p>
+
+<p>I placed these files into my <code>index.html.erb</code> file and after that everything was styled according to bootstrap, including the glyphicons.</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">&quot;X-UA-Compatible&quot;</span> <span class="na">content=</span><span class="s">&quot;IE=edge&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content=</span><span class="s">&quot;width=device-width, initial-scale=1&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;description&quot;</span> <span class="na">content=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;author&quot;</span> <span class="na">content=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+
+    <span class="nt">&lt;title&gt;</span>Theming a rails application<span class="nt">&lt;/title&gt;</span>
+
+    <span class="c">&lt;!-- Bootstrap Core CSS --&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;bower_components/bootstrap/dist/css/bootstrap.min.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
+
+<span class="nt">&lt;/head&gt;</span></code></pre></div>
+
+<hr />
+
+<p>Want to see something else added? <a href="mailto:colleowino@gmail.com?Subject=Hello">email me</a></p>
+

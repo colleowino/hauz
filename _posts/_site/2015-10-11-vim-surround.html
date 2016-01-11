@@ -1,0 +1,30 @@
+<h4 id="installation">Installation:</h4>
+<p>I prefer using pathogen to manage my plug-ins all you have to do is clone the repo in the <code>~/.vim/bundle</code> directory and you are good to go.</p>
+
+<p><code>git clone https://github.com/tpope/vim-surround.git </code></p>
+
+<h5 id="workflow">workflow:</h5>
+<p>There are different types of surrounding tags</p>
+
+<ul>
+  <li>Quotes: single <strong>‘</strong> and double <strong>“</strong>, even backticks <strong>`</strong></li>
+  <li>Brackets: square <strong>[]</strong>, curly <strong>{}</strong> and the usual <strong>()</strong></li>
+  <li>Tags: mostly html <strong> opening and /closing </strong></li>
+</ul>
+
+<h4 id="surrounding-words">Surrounding words</h4>
+<p>Place the cursor within that word and type <code>ysiw</code> followed by the desired container eg <code>ysiw&lt;em&gt;</code> <strong> Yank(copy) surround to inner word </strong>
+Using opening brackets adds spacing before and after word, while the closing ones don’t.
+Try <code>ysiw{</code> vs <code>ysiw}</code></p>
+
+<h4 id="removing-surrounds">Removing surrounds</h4>
+<p>To remove them <code>ds</code>+ surround depending on which type of quotes you used. e.g <code>ds"</code> or <code>ds{</code></p>
+
+<h5 id="interchanging-surrounds-">Interchanging surrounds :</h5>
+<p>You can change ‘hello’ to “hello” by placing the cursor inside the word and typing <code>cs'"</code>
+Which read <strong>change surround single-quotes to double-quotes</strong> you can interchange them.<br />
+That works for all other surrounds except tags e.g.	<code>&lt;em&gt;</code> For those you have to change them to another surround then back to your desired tag. So <code>cst'</code> <strong>Change surround to single-quote</strong> then <code>cs'&lt;p&gt;</code></p>
+
+<h5 id="surrounding-a-selection-in-visual-mode">Surrounding a selection in Visual mode.</h5>
+<p>Highlight the text you want to surround and type <code>S</code> plus the desired end. e.g. <code>S&lt;em</code> on <code>Hello world</code> will result in <code>&lt;em&gt;Hello world&lt;/em&gt;</code> The closing end will be placed on the next line.</p>
+

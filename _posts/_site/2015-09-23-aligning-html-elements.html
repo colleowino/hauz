@@ -1,0 +1,72 @@
+<h3 id="workflow">Workflow:</h3>
+
+<p>You have two options depending on what you want to align. The only requirement is that the component has block level properties. That means it could occupy a single line or be shifted to the right or left. You could use:</p>
+
+<ul>
+  <li>text-align</li>
+  <li>Margins/paddings</li>
+  <li>Offset positioning</li>
+  <li>floats</li>
+</ul>
+
+<h5 id="aligning-text">aligning text:</h5>
+<p><img src="/img/uxpin-text-left.png" alt="placeholder" />
+This can be used to align text sections of the page like Headings and paragraphs. Its important to note that applying this to anchor elements moves all elements withing it to the specified side. You may use it to align anchors styled as buttons to the center.</p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.content</span> <span class="p">{</span>
+	<span class="k">text-align</span><span class="o">:</span> <span class="k">right</span><span class="p">;</span>
+	<span class="c">/* options: left, right, center */</span>
+	<span class="c">/* Applies to: Headings, paragraphs, spans, mostly text within an element.*/</span>
+<span class="p">}</span></code></pre></div>
+
+<h3 id="moving-whole-elements">Moving whole elements:</h3>
+<p><img src="/img/uxpin-div-center.png" alt="placeholder" />
+If you want to align a block level element, Lets say a div to the right or the left you can easily do that using float. The only downside is that the element will be no longer occupy the whole line after but collapse to the width of its content.
+You can fix that using <em>clear</em></p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.content</span> <span class="p">{</span>
+	<span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
+	<span class="c">/* options: right/left*/</span>
+	<span class="c">/* Applies to: Nearly all block level elements eg headings, paragraphs */</span>
+	<span class="k">clear</span><span class="o">:</span> <span class="k">right</span><span class="p">;</span> <span class="c">/* you want no element to occupy the vacant space beside this element */</span>
+<span class="p">}</span></code></pre></div>
+
+<p>You can center align divs using auto for right and left margins instead.</p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.middle</span> <span class="p">{</span>
+	<span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<h3 id="moving-withing-element-aboundaries">Moving withing element aboundaries:</h3>
+<p><img src="/img/uxpin-margins.png" alt="placeholder" />
+Some time you just want the text to move slightly to the side. Lets say 100px from the left edge of the viewport. You are have the option of adding specific left margins/paddings.</p>
+
+<h5 id="margins-and-paddings">Margins and paddings:</h5>
+<p>Padding/margin depends on where the space will come from either within the element or outside it. Not different unless you intend to add outlines on the element</p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.content</span> <span class="p">{</span>
+	<span class="k">margin-left</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+	<span class="k">padding-left</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+	<span class="c">/* options: You can use specific measurements eg em, 20%, px  */</span>
+	<span class="c">/* Applies to: Nearly all elements, I doubt if it works on the body tag.*/</span>
+<span class="p">}</span></code></pre></div>
+
+<h5 id="offset-properties">Offset properties:</h5>
+<p>Similar to Margins and Paddings but only apply to absolutely positioned elements. If you want to position elements relative to the parent element you have set parent positioning to relative and then child elements to absolute. This is an alternative to using huge amounts of padding.</p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.parent</span> <span class="p">{</span>
+	<span class="k">width</span><span class="o">:</span><span class="m">50%</span><span class="p">;</span> <span class="c">/* maintain the parent element&#39;s size even when its empty */</span>
+	<span class="k">position</span><span class="o">:</span> <span class="k">relative</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.child</span> <span class="p">{</span>
+	<span class="k">position</span><span class="o">:</span> <span class="k">absolute</span><span class="p">;</span>
+	<span class="c">/* move 30px from both the left and bottom edges */</span>
+	<span class="k">left</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+	<span class="k">bottom</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+	<span class="k">z-index</span><span class="o">:</span> <span class="m">2</span><span class="p">;</span> <span class="c">/* raise the child above the parent element */</span>
+<span class="p">}</span></code></pre></div>
+
+<hr />
+
+<p>Want to see something else added? <a href="mailto:colleowino@gmail.com?Subject=Hello">email me</a></p>
