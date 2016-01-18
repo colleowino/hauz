@@ -13,8 +13,8 @@
             "bedroom": 3,
             "bathroom": 4,
             "price": "18,000,000",
-            "floor-area": "260 SQ M",
             "code": 1675,
+            "floor-area": "260 SQ M",
             "long-text":"Royal complex is situated in the rich quiet Kileleshwa area are these apartments which accommodate the whole family adequately. The apartments are only 24 in the compound, allowing for ample parking and entertainment area. These spacious homes are fitted with superb classic finishes, which are tastefully selected. We have a choice of 3 bedroom apartments all en suite.Each apartment also has a spacious domestic servant quarter which has a separate access. Plinth area: 260 sqm \n •Cabro paved riveway & parking \n"
         },
         {
@@ -23,6 +23,8 @@
             "image": "http://colleowino.github.io/hauz/img/api/props/p1540_5.jpg",
             "description": "the waterman business park",
             "timeStamp": "1403375851930",
+            "price": "7,000,000",
+            "code": 1676,
             "url": null
         },
         {
@@ -31,6 +33,8 @@
             "description": "lenana road 3 bed apartment with sq",
             "image": "http://colleowino.github.io/hauz/img/api/props/p1718_1.jpg",
             "timeStamp": "1403375851930",
+            "price": "3,250,000",
+            "code": 1677,
             "url": "http://ti.me/1qW8MLB"
         },
         {
@@ -39,6 +43,8 @@
             "description": "almasi 4 bed plus villa",
             "image": "http://colleowino.github.io/hauz/img/api/props/p1465_1.jpg",
             "timeStamp": "1403375851930",
+            "price": "8,000,000",
+            "code": 1678,
             "url": null
         },
         {
@@ -47,6 +53,8 @@
             "description": "off lower kabete 4 bed villa",
             "image": "http://colleowino.github.io/hauz/img/api/props/p1691_2.jpg",
             "timeStamp": "1403375851930",
+            "price": "2,500,000",
+            "code": 1679,
             "url": null
         }
     ]
