@@ -12,6 +12,7 @@
             "type":"furnished apartment",
             "bedroom": 3,
             "bathroom": 4,
+            "Agent": 0702300400,
             "price": "18,000,000",
             "code": 1675,
             "floor-area": "260 SQ M",
@@ -24,6 +25,9 @@
             "description": "the waterman business park",
             "timeStamp": "1403375851930",
             "price": "7,000,000",
+            "bedroom": 2,
+            "bathroom": 2,
+            "Agent": 0702300400,
             "code": 1676,
             "url": null
         },
@@ -34,6 +38,9 @@
             "image": "http://colleowino.github.io/hauz/img/api/props/1677/main.jpg",
             "timeStamp": "1403375851930",
             "price": "3,250,000",
+            "Agent": 0702300400,
+            "bedroom": 4,
+            "bathroom": 2,
             "code": 1677,
             "url": "http://ti.me/1qW8MLB"
         },
@@ -44,6 +51,9 @@
             "image": "http://colleowino.github.io/hauz/img/api/props/1678/main.jpg",
             "timeStamp": "1403375851930",
             "price": "8,000,000",
+            "Agent": 0702300400,
+            "bedroom": 3,
+            "bathroom": 1,
             "code": 1678,
             "url": null
         },
@@ -54,6 +64,9 @@
             "image": "http://colleowino.github.io/hauz/img/api/props/1679/main.jpg",
             "timeStamp": "1403375851930",
             "price": "2,500,000",
+            "Agent": 0702300400,
+            "bedroom": 3,
+            "bathroom": 3,
             "code": 1679,
             "url": null
         }
