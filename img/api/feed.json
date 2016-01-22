@@ -82,6 +82,19 @@
             "bathroom": 3,
             "code": 1679,
             "url": null
+        },
+        {
+            "id": 6,
+            "location": "Westlands",
+            "description": "fantastic 2 bedroom house",
+            "image": "http://colleowino.github.io/hauz/img/api/props/1679/main.jpg",
+            "timeStamp": "1403375851930",
+            "price": "2,500,000",
+            "agent": "0702300400",
+            "bedroom": 3,
+            "bathroom": 3,
+            "code": 1679,
+            "url": null
         }
     ]
 }
